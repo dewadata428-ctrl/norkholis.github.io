@@ -5,3 +5,16 @@
   button { background-color: #007bff; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; }
   button:hover { background-color: #0056b3; }
 </style>
+form {
+  width: 100%;
+  max-width: 500px; /* Fleksibel di layar kecil, terbatasi di layar lebar */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+/* Penyesuaian khusus layar ponsel */
+@media (max-width: 600px) {
+  form {
+    padding: 15px;
+  }
+}
