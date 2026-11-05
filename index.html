@@ -1,23 +1,102 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontak Kami</title>
+    <title>KHOLIS STORE | Fashion Style</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hubungi Kami</h1>
-    <form action="#" method="post">
-        <label for="nama">Nama:</label><br>
-        <input type="text" id="nama" name="nama" required><br><br>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">KHOLIS<span>.</span></h2>
 
-        <label for="pesan">Pesan:</label><br>
-        <textarea id="pesan" name="pesan" rows="4" required></textarea><br><br>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
 
-        <button type="submit">Kirim</button>
-    </form>
+            <a href="#produk" class="nav-btn">Belanja</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO KHOLIS STORE</p>
+            <h1>LEVEL UP<br>YOUR <span>STYLE.</span></h1>
+            <p class="description">
+                Temukan gaya terbaikmu dengan koleksi fashion
+                modern, keren, dan berkualitas.
+            </p>
+
+            <a href="#produk" class="btn">Jelajahi Koleksi</a>
+        </div>
+
+        <div class="hero-image">
+            <div class="circle"></div>
+            <h2>FASHION<br>IS YOUR<br>IDENTITY.</h2>
+        </div>
+    </section>
+
+    <!-- PRODUK -->
+    <section class="produk" id="produk">
+        <div class="section-title">
+            <p>OUR COLLECTION</p>
+            <h2>Produk Pilihan</h2>
+        </div>
+
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-icon">01</div>
+                <h3>Premium T-Shirt</h3>
+                <p>Kaos premium dengan desain modern.</p>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">02</div>
+                <h3>Casual Outfit</h3>
+                <p>Gaya santai yang tetap elegan.</p>
+            </div>
+
+            <div class="product-card">
+                <div class="product-icon">03</div>
+                <h3>Streetwear</h3>
+                <p>Tampil percaya diri dengan gaya streetwear.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <p>ABOUT US</p>
+        <h2>Style That Defines You.</h2>
+        <p>
+            KHOLIS STORE hadir untuk memberikan pilihan fashion
+            terbaik bagi kamu yang ingin tampil percaya diri,
+            modern, dan berbeda.
+        </p>
+    </section>
+
+    <!-- KONTAK -->
+    <section class="kontak" id="kontak">
+        <h2>LET'S CONNECT.</h2>
+        <p>Ingin mengetahui koleksi terbaru kami?</p>
+        <a href="https://wa.me/6281234567890" class="btn">
+            Hubungi Kami
+        </a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>KHOLIS<span>.</span></h2>
+        <p>© 2026 KHOLIS STORE. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
